@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Bread Tools
+		</title>
+
+		<!-- viewport and mobile -->
+		<meta name="viewport" content="width=device-width">
+			<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<!-- mobile icons -->
+		<link rel="apple-touch-icon-precomposed" href="./static/images/Icon.png" />
+			<link rel="apple-touch-icon-precomposed" href="./static/images/Icon-114.png" size="114x114" />
+				<link rel="apple-touch-icon-precomposed" href="./static/images/Icon-72.png" size="72x72"/>
+					<link rel="apple-touch-icon-precomposed" href="./static/images/Icon-144.png" size="144x144" />
+		
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="./static/lib/css/breadtools.min.css">
+			<link rel="stylesheet" type="text/css" href="./static/lib/css/jquery.mobile-1.4.0.min.css">
+				<link rel="stylesheet" type="text/css" href="./static/lib/css/styles.css">
+
+
+		<!-- jquery libraries -->
+		<script src="./static/lib/js/jquery-1.10.2.min.js"></script>
+		 	<script src="./static/lib/js/jquery.mobile-1.4.0.min.js"></script>
+
+		
+
+		<!-- fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div data-role="page" id="startpage" data-theme="d">
+
+			<div data-role="header" data-position="fixed">
+				
+					<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+				
+					<h1>Bread Tools</h1>
+				
+			</div>
+
+			<div data-role="content" id="content">
+				
+				<h1>Let's get started:</h1>
+
+				<h3>Destinations:</h3>
+				<div data-role="controlgroup">
+					<a data-role="button" href="tutorial.html">Bread Tutorial</a>
+					<a data-role="button" href="recipes.html">My Recipes</a>
+				</div>
+
+					
+				<div data-role="controlgroup" data-inset="true">
+					<h3>Calculators:</h3>
+
+					<a data-role="button" href="feeding.html">Sourdough Feeding</a>
+					
+					<a data-role="button" href="scaler.html">Recipe Scaler</a>
+					
+					<a data-role="button" href="percents.html">Baker's Percentages</a>
+				</div>
+					
+			</div><!-- end of content -->
+
+
+
+
+
+
+			</div><!--CONTENT ENDS HERE-->
+
+			
+
+<!--NAVIGATION BEGINS-->
+
+			<div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="nav-panel">
+				<ul data-role="listview">
+					<li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+					
+					<li data-icon="home"><a href="index.html">Start</a></li>
+					<li></li>
+					<li><h3>Destinations</h3></li>
+					<li><a href="tutorial.html">Bread Tutorial</a></li>
+					<li><a href="recipes.html">My Recipes</a></li>
+					<li></li>
+					<li><h3>Calculators</h3></li>
+					<li><a href="feeding.html">Sourdough Feeding</a></li>
+					<li><a href="basic.html">Basic Recipe</a></li>
+					<li><a href="percents.html">Baker's Percentages</a></li>
+					<li></li>	
+					<li><a href="about.html" data-transition="slidedown">About</a></li>	
+					<li><a href="prefs.html">Preferences</a></li>		
+				</ul>
+			</div>
+<!--NAVIGATION END-->
+
+		</div><!-- data-role="page" ends here-->
+
+		
+
+
+	</body>
+
+</html>

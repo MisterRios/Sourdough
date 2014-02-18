@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Preferences
+		</title>
+	</head>
+	
+	<body>
+		<div data-role="page" id="tutorial" data-theme="d">
+
+			<div data-role="header" data-position="fixed">
+
+				<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+				<h1>Bread Tutorial</h1>
+			</div>
+			<div data-role="content">
+				<form>
+			    	<label for="flip-checkbox">Tutorial On?</label>
+					 <input type="checkbox" data-role="flipswitch" name="tutorial_pref" id="flip-checkbox" data-on-text="Off" data-off-text="On" data-wrapper-class="custom-label-flipswitch">
+
+					
+					<div class="ui-field-contain">
+						<label for="select-native-1">Select New Startpage</label>
+						    <select name="new_startpage" id="select-native-1">
+						        <option value="1">Home</option>
+						        <option value="2">My Recipes</option>
+						        <option value="3">Feeding Calculator</option>
+						        <option value="4">Recipe Scaler</option>
+						        <option value="4">Baker's Percentages</option>
+						    </select>
+					</div>
+					<br/>
+					<div>
+						<a data-rel="back" data-role="button" href="#">Save and Continue</a>
+					</div>	
+
+
+					
+				</form>
+				
+			</div>
+			
+			
+			
+			
+			
+
+<!--NAVIGATION BEGINS-->
+
+			<div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="nav-panel">
+				<ul data-role="listview">
+					<li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+					
+					<li data-icon="home"><a href="index.html">Start</a></li>
+					<li></li>
+					<li><h3>Destinations</h3></li>
+					<li><a href="tutorial.html">Bread Tutorial</a></li>
+					<li><a href="recipes.html">My Recipes</a></li>
+					<li></li>
+					<li><h3>Calculators</h3></li>
+					<li><a href="feeding.html">Sourdough Feeding</a></li>
+					<li><a href="basic.html">Basic Recipe</a></li>
+					<li><a href="percents.html">Baker's Percentages</a></li>
+					<li></li>	
+					<li><a href="about.html">About</a></li>	
+					<li><a href="prefs.html">Preferences</a></li>		
+				</ul>
+			</div>
+<!--NAVIGATION END-->
+			
+		</div><!-- page ends here -->
+		
+		
+	</body>
+	
+</html>

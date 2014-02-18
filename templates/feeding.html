@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Feeding
+		</title>
+	</head>
+	
+	<body>
+		<div data-role="page" id="feeding" data-theme="d">
+
+			<div data-role="header" data-position="fixed">
+
+				<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+				<h1>Feeding</h1>
+			</div>
+			<div data-role="content">
+				<form>
+					<h3>Input how much sourdough you have</h3>
+
+  					<label for="flour">Weight</label>
+					<input type="range" name="flour" id="slider-fill" data-highlight="true" min="0" max="500" value="100" data-popup-enabled="true">
+				
+  					<label for="water">Percentage</label>
+					<input type="range" name="water" id="slider-fill" data-highlight="true" min="0" max="150" value="65" data-popup-enabled="true">
+				
+  					
+
+					<input type="submit" data-role="button" value="Submit">
+				</form>
+
+			
+			
+			
+			
+<!--NAVIGATION BEGINS-->
+
+			<div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="b" id="nav-panel">
+				<ul data-role="listview">
+					<li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+					
+					<li data-icon="home"><a href="index.html">Start</a></li>
+					<li></li>
+					<li><h3>Destinations</h3></li>
+					<li><a href="tutorial.html">Bread Tutorial</a></li>
+					<li><a href="recipes.html">My Recipes</a></li>
+					<li></li>
+					<li><h3>Calculators</h3></li>
+					<li><a href="feeding.html">Sourdough Feeding</a></li>
+					<li><a href="basic.html">Basic Recipe</a></li>
+					<li><a href="percents.html">Baker's Percentages</a></li>
+					<li></li>	
+					<li><a href="about.html" data-transition="slidedown">About</a></li>	
+					<li><a href="prefs.html">Preferences</a></li>		
+				</ul>
+			</div>
+<!--NAVIGATION END-->
+			
+		</div><!-- page ends here -->
+		
+		
+	</body>
+	
+</html>
